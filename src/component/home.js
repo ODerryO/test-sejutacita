@@ -36,8 +36,8 @@ function Home() {
   }
 
   const handleChangeCategory = e => {
-    const {value1} = e.target
-    setCategoryId(value1)
+    const {value} = e.target
+    setCategoryId(value)
   }
 
   useEffect(() => {
@@ -97,14 +97,13 @@ function Home() {
       </div>
 
       <div className="wrapper-btn-suggest">
-        <p>Categories Book</p>
         <div className="btn-flex">
         {suggestion.map((suggest) => (
           <div className="btn-suggest">
             <Stack direction="row" spacing={2} >
               <Button 
               variant="contained"
-              value1="1"
+              value="1"
               onChange={handleChangeCategory}
               >{suggest.name}</Button>
             </Stack>

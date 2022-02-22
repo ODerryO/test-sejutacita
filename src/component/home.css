@@ -80,4 +80,10 @@ html {
 
 .btn-flex{
   display: flex;
+  margin-left: 10vh;
+  margin-bottom: 10vh;
+}
+
+.btn-suggest {
+  margin-right: 2vh;
 }
