@@ -1,0 +1,83 @@
+html {
+  background-color: #2F4F4F;
+}
+.text-center h1{
+  color: #00FFFF;
+}
+
+.cardBody p {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.card a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.thumbnail {
+  width: 240px;
+  height: 240px;
+  object-fit: fill;
+}
+
+.displayCard {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+.cardBody {
+  flex: 0 1 calc(50% - 20px);
+}
+
+.cardBody p {
+  text-align: center;
+}
+
+.bookTittle {
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-filter{
+  position: fixed;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.btn-filter {
+    right: 0;
+    width: 120px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #6495ED !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  color: white !important;
+}
+
+.css-1m9pwf3 {
+  border: #00FFFF;
+}
+
+.btn-flex{
+  display: flex;
+}
